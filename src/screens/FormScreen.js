@@ -28,7 +28,7 @@ const FormScreen = ({ navigation }) => {
         navigation.goBack()
     };
 
-    console.log(address)
+    // console.log(address)
     const {        
         handleSubmit,
         formState: { errors },

@@ -33,7 +33,7 @@ const HomeScreen = ({ navigation }) => {
             await dispatch(getProducts());
             setIsRefreshing(false);
         } catch (error) {
-            console.log(error.message);
+            // console.log(error.message);
             setIsRefreshing(false);
             setError(error.message);
         }

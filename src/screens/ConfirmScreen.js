@@ -39,7 +39,7 @@ const ConfirmScreen = ({ navigation }) => {
             navigation.popToTop()
         } catch (error) {
             setLoading(false)
-            console.log(error.message)
+            // console.log(error.message)
         }
 
     };
